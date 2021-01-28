@@ -6,7 +6,7 @@ public class CalculaterHard {
         String s = "";
         double result = 0.0;
 
-        System.out.println("Введите число");
+        System.out.println("Введите Число");
         int operand1 = scanner.nextInt();
 
         while (!(s.equals("s"))) {
