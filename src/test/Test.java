@@ -3,9 +3,10 @@ import java.util.regex.Pattern;
 
 class Test {
 
+    String text0 = "test";
     String text = "aba aba a!a abba adca abea";
 
     Pattern pattern = Pattern.compile("[a].{2}[a]");
     Matcher matcher = pattern.matcher(text);
-
+    CalculaterHard c;
 }
